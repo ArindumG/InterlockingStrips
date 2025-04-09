@@ -140,7 +140,7 @@ namespace InterlockingStrips
         {
             get
             {
-                using (MemoryStream ms = new MemoryStream(Properties.Resources.I ))
+                using (MemoryStream ms = new MemoryStream(Properties.Resources.ICON06))
                 {
                     Bitmap bmp = new Bitmap(ms);
                     return new Bitmap(bmp, new Size(24, 24));

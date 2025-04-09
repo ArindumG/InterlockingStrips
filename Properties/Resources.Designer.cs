@@ -109,5 +109,15 @@ namespace InterlockingStrips.Properties {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ICON06 {
+            get {
+                object obj = ResourceManager.GetObject("ICON06", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
